@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <div class="counter">
+            <div class="decre">
+    <button onclick="decrement()" class="incre">-</button></div>
+    <div class="display">
+    <p id="display"></p>
+</div>
+<div class="decre">
+    <button onclick="increment()" class="incre">+</button></div> 
+</div>
+    
+    <button onclick="reset()" class="rese">Reset</button>
+</header>
+
+
+
+    <script>
+        a=0;
+        function increment(){
+            a+=1;
+            document.getElementById('display').innerHTML=a;
+            if(a<0){
+                document.getElementById('display').innerHTML="0";
+            }
+        }
+        function decrement(){
+            a=a-1;
+            document.getElementById('display').innerHTML=a;
+            if(a<0){
+                document.getElementById('display').innerHTML="0";
+            }
+        }
+        function reset(){
+            document.getElementById('display').innerHTML="0";
+        a=0;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+.counter{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    top: 25%;
+
+}  
+.display{
+    border: 1px solid ;
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    color: white;
+    border: 1px solid rgb(124, 72, 5);
+    background-color: rgb(124, 72, 5);
+}  
+.incre:hover{
+    cursor:pointer;
+}
+.incre{
+    border-radius: 50%;
+    border: 1px solid rgb(188, 181, 181);
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    color: rgb(188, 181, 181);
+    background-color: white;
+}
+.rese{
+    text-align: center;
+    margin-top: 140px;
+    width: 90px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 130px;
+    border: 1px solid white;
+
+}
+header{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(255, 179, 0);
+    border-radius: 10px;
+   margin:150px auto 150px auto;
+}
+body{
+    background-color:white;
+}
